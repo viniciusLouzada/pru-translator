@@ -15,7 +15,7 @@ const Cloud = styled.div<CloudProps>`
   border-radius: 200px;
   position: absolute;
   z-index: 1;
-  top: ${({ height }) => `${Math.round(Math.random() * height) - 100}px`};
+  top: ${({ height }) => `${Math.round(Math.random() * height) - 50}px`};
   left: ${({ width }) =>
     `${width - Math.round(Math.random() * width) - 450}px`};
   opacity: ${() => Math.random() + 0.3};
@@ -54,6 +54,8 @@ const Cloud = styled.div<CloudProps>`
   }
 
   @media screen and (max-width: 479px) {
+    left: ${({ width }) =>
+      `${width - Math.round(Math.random() * width) - 250}px`};
     animation: moveclouds 20s linear infinite;
 
     @keyframes moveclouds {
