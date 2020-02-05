@@ -6,9 +6,8 @@ import { UPDATE_TEXT } from "../../../store/store";
 import LanguageSelect from "./language-select.component";
 
 const InputAreaComponent: React.FC = () => {
-  const { state, dispatch } = useAppContext();
+  const { dispatch } = useAppContext();
   const inputRef = useRef<HTMLTextAreaElement>(null);
-  console.log("state", state);
 
   return (
     <InputWrapper>
