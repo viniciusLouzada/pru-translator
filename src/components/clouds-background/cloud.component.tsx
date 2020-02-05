@@ -53,19 +53,8 @@ const Cloud = styled.div<CloudProps>`
     }
   }
 
-  @media screen and (max-width: 479px) {
-    left: ${({ width }) =>
-      `${width - Math.round(Math.random() * width) - 250}px`};
-    animation: moveclouds 20s linear infinite;
-
-    @keyframes moveclouds {
-      0% {
-        transform: translateX(200px);
-      }
-      100% {
-        transform: translateX(-200px);
-      }
-    }
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 

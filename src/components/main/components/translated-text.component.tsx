@@ -43,6 +43,7 @@ const TranslatedTextArea = styled.textarea`
 
   @media screen and (max-width: 479px) {
     width: 80%;
+    height: 150px;
   }
 `;
 
