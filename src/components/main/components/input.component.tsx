@@ -28,10 +28,12 @@ const InputAreaComponent: React.FC = () => {
 const InputWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
+  align-items: center;
 `;
 
 const InputArea = styled.textarea`
-  width: 600px;
+  width: 40%;
   height: 80px;
   padding: 5px;
   border-radius: 5px;
@@ -43,7 +45,7 @@ const InputArea = styled.textarea`
   resize: none;
 
   @media screen and (max-width: 479px) {
-    width: 350px;
+    width: 80%;
   }
 `;
 

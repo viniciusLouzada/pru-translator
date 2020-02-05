@@ -60,10 +60,10 @@ const Cloud = styled.div<CloudProps>`
 
     @keyframes moveclouds {
       0% {
-        transform: translateX(250px);
+        transform: translateX(200px);
       }
       100% {
-        transform: translateX(-250px);
+        transform: translateX(-200px);
       }
     }
   }

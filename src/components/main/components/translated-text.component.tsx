@@ -27,7 +27,7 @@ const TranslatedTextComponent: React.FC = () => {
 };
 
 const TranslatedTextArea = styled.textarea`
-  width: 600px;
+  width: 40%;
   height: 250px;
   background-color: white;
   margin-top: 40px;
@@ -42,7 +42,7 @@ const TranslatedTextArea = styled.textarea`
   resize: none;
 
   @media screen and (max-width: 479px) {
-    width: 350px;
+    width: 80%;
   }
 `;
 

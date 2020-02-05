@@ -31,12 +31,12 @@ const LanguageSelectComponent: React.FC<LanguageSelectComponentProps> = ({
 
 const TranslatorSelect = styled.select`
   font-family: "Sigmar One", cursive;
-  width: 20%;
+  width: 10%;
   font-size: 14px;
   margin-bottom: 20px;
 
   @media screen and (max-width: 479px) {
-    width: 30%;
+    width: 35%;
     font-size: 14px;
     background-color: white;
   }
